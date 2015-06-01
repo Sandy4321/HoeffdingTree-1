@@ -88,5 +88,5 @@ void ProcessData(const TStr& FileNm, PHoeffdingTree HoeffdingTree) {
 + [5] Gama et al., [Issues in Evaluation of Stream Learning Algorithms](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.4848&rep=rep1&type=pdf), KDD`09
 + [6] Elena Ikonomovska, [Algorithms for Learning Regression Trees and Ensembles on Evolving Data Streams](http://kt.ijs.si/elena_ikonomovska/00-disertation.pdf), PhD thesis (2012)
 + [7] Wassily Hoeffding, [Probability Inequalities for Sums of Bounded Random Variables](http://www.csee.umbc.edu/~lomonaco/f08/643/hwk643/Hoeffding.pdf), Journal of the American Statistical Association (1963)
-+ [8] Blaz Sovdat, [Algorithms for incremental learning of decision trees from time-changing data streams](http://blazsovdat.com/diploma/blazs-diploma-final.pdf), Undergraduate thesis (2013)
++ [8] Blaz Sovdat, [Algorithms for incremental learning of decision trees from time-changing data streams](http://agava.ijs.si/~blazs/diploma.pdf), Undergraduate thesis (2013)
 
