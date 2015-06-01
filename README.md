@@ -3,7 +3,7 @@ HoeffdingTree
 
 Implementation of algorithms for incremental classification [[1](#references),[2](#references)] and regression [[3](#references),[6](#references)] tree learning from time-changing data streams. See [[8](#references)] for detailed description of the main ideas behind these algorithms.
 
-As of this writing this is still work in progress. The plan is to integrate this into [QMiner](https://github.com/qminer/qminer) soon. (Note that this code requires [GLib](https://github.com/qminer/qminer/tree/master/src/glib).)
+As of this writing this is still work in progress. The plan is to integrate this into [QMiner](https://github.com/qminer/qminer) [9] soon. (Note that this code requires [GLib](https://github.com/qminer/qminer/tree/master/src/glib).)
 
 _Note_: If you'll try to build this, note that GLib uses v0.10 version of libuv; so run `git clone -b v0.10 https://github.com/joyent/libuv.git` in case you need to build it
 
@@ -89,4 +89,4 @@ void ProcessData(const TStr& FileNm, PHoeffdingTree HoeffdingTree) {
 + [6] Elena Ikonomovska, [Algorithms for Learning Regression Trees and Ensembles on Evolving Data Streams](http://kt.ijs.si/elena_ikonomovska/00-disertation.pdf), PhD thesis (2012)
 + [7] Wassily Hoeffding, [Probability Inequalities for Sums of Bounded Random Variables](http://www.csee.umbc.edu/~lomonaco/f08/643/hwk643/Hoeffding.pdf), Journal of the American Statistical Association (1963)
 + [8] Blaz Sovdat, [Algorithms for incremental learning of decision trees from time-changing data streams](http://agava.ijs.si/~blazs/diploma.pdf), Undergraduate thesis (2013)
-
++ [9] Blaz Fortuna, Jan Rupnik, and others. [QMiner: Data Analytics Platform for Processing Streams of Structured and Unstructured Data](http://sensorlab.ijs.si/files/publications/Fortuna_QMiner_Data_Analytics_Platform.pdf), NIPS`14.
